@@ -1,4 +1,3 @@
-// /types/review.d.ts
 
 export interface ReviewBreakdown {
   5: number;

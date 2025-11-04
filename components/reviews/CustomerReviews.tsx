@@ -56,18 +56,17 @@ export default function CustomerReviews() {
   return (
     <section className="w-full px-4 md:px-10 lg:px-20 py-10">
       <div className="grid grid-cols-1 md:grid-cols-[16rem_1fr] gap-8">
-        {/* ✅ LEFT - Reviews Filter (Desktop only) */}
+        {/*  LEFT - Reviews Filter ( */}
         <div className="hidden md:block">
           <ReviewsFilter />
         </div>
 
-        {/* ✅ RIGHT - Review List Section */}
+        {/*  RIGHT - Review List Section */}
         <div>
-          {/* Tabs + Mobile Filter Button */}
           <div className="flex items-center justify-between">
             <ReviewTabs active="all" />
 
-            {/* ✅ Mobile Filter Icon */}
+            {/*  Mobile Filter Icon */}
             <button className="md:hidden p-2 border rounded-md">
               <FiFilter size={18} className="text-gray-700" />
             </button>
