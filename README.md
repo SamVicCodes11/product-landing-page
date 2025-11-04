@@ -21,5 +21,39 @@ It is based on a Figma UI design and includes dynamic sections ready for API int
 - Fully responsive (mobile, tablet, desktop)
 
 
+---
+
+## ⚙️ Installation
+
+```bash
+git clone https://github.com/SamVicCodes11/product-landing-page.git
+cd product-landing-page
+npm install
+npm run dev
+
+---
+
+
+## 📁 Folder Structure
+
+src/
+├── app/
+│ ├── layout.tsx # Root layout (font, header, footer)
+│ └── page.tsx # Home page
+├── components/
+│ ├── layout/ # Header, Footer
+│ ├── hero/ # Product hero section
+│ ├── reviews/ # Review summary & review list
+│ ├── products/ # ProductCard, RelatedProducts, PopularThisWeek
+├── lib/
+│ └── api.ts # Axios instance (API handling)
+├── types/ # TypeScript types (Product, Review, etc.)
+└── styles/
+└── globals.css
+
+
+
+
+
 
 
